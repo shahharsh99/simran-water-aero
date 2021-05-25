@@ -52,7 +52,8 @@ const Routes = () => {
 //             <Route path="/" render={() => <Redirect to="/login" />} />
 //         </Switch>
 //     </Router>
-        <Switch>
+<Router>
+<Switch>
 
         {/* Change Password */}
         <Route exact path="/changePassword" component={ChangePassword }/>
@@ -83,6 +84,7 @@ const Routes = () => {
 
             <Route path="/" render={() => <Redirect to="/login" />} />
     </Switch>
+    </Router>
 )}
 
 export default Routes;
