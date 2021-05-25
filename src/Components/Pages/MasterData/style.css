@@ -1,0 +1,89 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    height: 400px;
+    overflow-y: scroll; 
+  }
+  
+ .table-fixed  {
+    height: 4xb00px;
+     overflow-y: auto; 
+     width: 100%;
+} 
+
+.table-fixed td,.table-fixed th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-fixed tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-fixed tr:hover {background-color: #ddd;}
+
+.table-fixed th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  color: black;
+}
+thead tr:nth-child(1) th { position: sticky; top: 0; }
+thead tr:nth-child(2) th { position: sticky; top: 43px; }
+
+/* table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+  
+  }
+  th, td {
+    padding: 0.23rem;
+  }
+th {
+    background: white;
+    position: sticky !important;
+    top: 0 !important;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+  }
+
+  thead th:nth-child(1) th { 
+    position: sticky; top: 0;
+   }
+thead th:nth-child(2) th { position: sticky; top: 43px; } */
+
+ 
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+/* body {
+    background: #74ebd5;
+    background: -webkit-linear-gradient(to right, #74ebd5, #ACB6E5);
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+
+} */
+
+
+@media only screen and (max-width: 768px) {
+  /* .files{
+    margin-bottom: 100;
+  } */
+  [class*="files"] {
+    margin-bottom: 50px;
+   
+    
+  }
+}

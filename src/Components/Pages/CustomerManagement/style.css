@@ -1,0 +1,10 @@
+
+@media only screen and (min-width: 376px) and (max-width: 768px)  {
+    /* .files{
+      margin-bottom: 100;
+    } */
+    [class*="actionButton"] {
+      font-size: 10px;    
+      /* margin-bottom: 10px;  */
+    }
+  }

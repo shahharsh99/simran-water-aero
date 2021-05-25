@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+    /* .files{
+      margin-bottom: 100;
+    } */
+    [class*="files"] {
+      margin-bottom: 50px;
+     
+      
+    }
+  }
